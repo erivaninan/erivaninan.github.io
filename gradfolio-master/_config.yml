@@ -1,11 +1,11 @@
 ### your site title here
 
-title: Your Name
-description: subtitle | affiliations | motto
+title: Erivan INAN
+description: Master's Student in Data Science | Sorbonne Université | ISUP
 
-baseurl: /gradfolio #name of GitHub repository
+baseurl: /erivaninan.github.io #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
-email: #
+email: inanerivan@gmail.com
 
 # Pagination
 paginate: 4
@@ -13,15 +13,8 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
+linkedin: "https://www.linkedin.com/in/erivan-inan/"
+github: "https://github.com/erivaninan"
 
 # Markdown
 highlighter: rouge
@@ -62,7 +55,6 @@ include:
   - _pages
 
 exclude:
-  - README.md
   - LICENSE.md
 
 plugins:
