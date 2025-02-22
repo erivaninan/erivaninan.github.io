@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Short project
-description: another project
+title: NLP - Twitter MBTI
+description: À venir...
 ---
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.

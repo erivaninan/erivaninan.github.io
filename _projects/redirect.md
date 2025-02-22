@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Click to Redirect to Project
-description: with no page entry here
-redirect: https://unsplash.com
+title: Consultez mes notebooks de contrôle qualité
+description: Implémentés en R
+redirect: https://github.com/erivaninan/QualityControl-R
 ---
