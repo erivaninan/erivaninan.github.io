@@ -1,12 +1,12 @@
 ---
 layout: post
-title: A longer Project Title
-description: short project description
+title: Neural Networks for anomaly detection
+description: PMC, GAN, CAE, SOM et DBN pour la détection d'anomalies dans différents contextes
 ---
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
 
-H1 Header
+
 ============
 
 Paragraphs are separated by a blank line.
