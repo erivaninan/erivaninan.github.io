@@ -1,11 +1,12 @@
 ---
 layout: post
-title: AI for tumor detection
-description: benchmark of 3 CNNs vs InceptionV3 for brain tumor classification
+title: Short project
+description: another project
 ---
+
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
 
-Classification de tumeurs cérébrales
+H1 Header
 ============
 
 Paragraphs are separated by a blank line.
