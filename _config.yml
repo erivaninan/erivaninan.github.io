@@ -55,6 +55,9 @@ collections:
       - project4.md
       - project5.md
       - project6.md
+  formations:
+    output: true
+    permalink: /formation/:name/
 
 # SCSS / CSS
 sass:
