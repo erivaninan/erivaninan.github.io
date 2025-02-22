@@ -1,0 +1,12 @@
+---
+layout: default
+permalink: /formation/
+title: Formation
+---
+
+<div class="article-list">
+	{% for formation in site.formations %}
+	<h3><small>{{ formation.date | date: '%B %Y' }}</small></h3>
+    <a href="{{ formation.url | prepend: site.baseurl }}">{{ formation.title }}</a><br>
+	{% endfor %}
+</div>
