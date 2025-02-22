@@ -1,6 +1,7 @@
 ---
 title: "Master Data Science - Sorbonne Université & ISUP"
 date: 2024-09-02
+date_end: 2025-03-28
 ---
 
 Cours dispensés

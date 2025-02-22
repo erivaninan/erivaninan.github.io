@@ -6,7 +6,16 @@ title: Formation
 
 <div class="article-list">
 	{% for formation in site.formations %}
-	<h3><small>{{ formation.date | date: '%B %Y' }}</small></h3>
+	<h3>
+		<small>
+			{{ formation.date | date: '%B %Y' }} - 
+			{% if formation.date_end %}
+				{{ formation.date_end | date: '%B %Y' }}
+			{% else %}
+				Présent
+			{% endif %}
+		</small>
+	</h3>
     <a href="{{ formation.url | prepend: site.baseurl }}">{{ formation.title }}</a><br>
 	{% endfor %}
 </div>

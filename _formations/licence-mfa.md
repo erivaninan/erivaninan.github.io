@@ -1,6 +1,7 @@
 ---
 title: "Licence Mathématiques - Parcours Mathématiques Fondammentales et Appliquées (MFA)"
 date: 2022-09-01
+date_end: 2023-05-30
 ---
 
 Cours dispensés

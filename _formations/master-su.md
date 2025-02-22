@@ -1,6 +1,7 @@
 ---
 title: "Master Mathématiques et Applications - Data Science Sorbonne Université & ISUP"
 date: 2023-09-01
+date_end: 2024-05-30
 ---
 
 Cours dispensés
