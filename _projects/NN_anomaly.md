@@ -4,19 +4,25 @@ title: Neural Networks for anomaly detection
 description: PMC, GAN, CAE, SOM et DBN pour la détection d'anomalies dans différents contextes
 ---
 
-Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
+Retrouvez les notebooks de ce projet [via ce lien Github](https://github.com/erivaninan/Neural-Networks-for-Anomaly-Detection){:target="_blank"}.
 
 
 ============
 
-Paragraphs are separated by a blank line.
+Ce projet explore l’application de modèles d’apprentissage profond pour la détection d’anomalies dans des données variées, telles que les comprimés et gélules (MVTec Pill), les chiffres manuscrits (MNIST) et les données de sécurité réseau (CICIDS2017). Différentes approches ont été mises en œuvre, incluant les perceptrons multicouches (PMC), les réseaux antagonistes génératifs (GAN), les cartes de Kohonen (SOM) et les réseaux de croyances profonds (DBN). Les résultats démontrent la pertinence et les limites de chaque méthode selon le type de données et le contexte d’application. Ces travaux offrent une vision comparative des capacités des modèles de deep learning pour résoudre des problématiques critiques dans des domaines tels que la détection de défauts industriels, l’analyse de données manuscrites et la cybersécurité.
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+Il s'agit d'un projet soumis en vue de l’accomplissement des exigences de l’ISUP et Sorbonne Université pour l’obtention du diplôme de Master 2 Data Science.
 
-  * this one
-  * that one
-  * the other one
+**Consignes du projet**
+
+  * Présentation succincte des réseaux de neurones, comprenant comment fonctionne l’apprentissage supervisé du PMC.
+  * Utilisation de R pour le PMC avec comparaison avec une méthode statistique classique.
+  * Démonstration d’un logiciel (ou autre fonction que nnet de R) traitant des réseaux neuronaux.
+  * Utilisation d’un logiciel pour une démonstration de carte de Kohonen.
+  * Démonstration des réseaux antagonistes génératifs, dits GANs.
+  * Démonstration logicielle pour un modèle de réseaux profonds tels que DBN.
+  * Éthique
+
 
 Note that the actual text
 content starts at 4-columns in.
