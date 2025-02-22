@@ -18,8 +18,8 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links
-linkedin: "https://www.linkedin.com/in/erivan-inan/"
-github: "https://github.com/erivaninan/"
+linkedin: "erivan-inan/"
+github: "erivaninan/"
 
 # Markdown Configuration
 highlighter: rouge
