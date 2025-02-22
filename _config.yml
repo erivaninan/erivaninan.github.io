@@ -52,8 +52,8 @@ collections:
     order:
       - NN_anomaly.md
       - brain_tumor.md
-      - controle_qua.md
       - store_sales.md
+      - controle_qua.md
       - package_dev.md
       - twitter_mbti.md
   formations:
