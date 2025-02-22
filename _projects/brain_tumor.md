@@ -3,12 +3,17 @@ layout: post
 title: AI for Brain Tumor Classification
 description: Benchmark de 3 CNNs vs le InceptionV3 pour la classification de tumeurs cérébrales
 ---
-Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
+
+Retrouvez les notebooks de ce projet dans [ce repository Github](https://github.com/erivaninan/Brain-Tumor-Classification){:target="_blank"}.
+
+Consultez le rapport pdf du projet [ici](https://github.com/erivaninan/Brain-Tumor-Classification/blob/main/(FR)%20Brain_Tumor_Classification_Report.pdf)
 
 Classification de tumeurs cérébrales
 ============
 
-Paragraphs are separated by a blank line.
+Les tumeurs cérébrales représentent un enjeu majeur de santé publique, nécessitant des outils de diagnostic précis et rapides pour améliorer la prise en charge des patients. Ce projet vise à développer un réseau neuronal convolutionnel (CNN) sur mesure et à réaliser un benchmark avec des modèles pré-entraînés tels qu’ImageNet et InceptionV3 pour la classification automatisée des tumeurs cérébrales à partir d’images IRM.
+
+Ce projet met en lumière le potentiel de l’intelligence artificielle pour assister les professionnels de santé dans la détection précoce et l’évaluation des pathologies cérébrales.
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
 look like:

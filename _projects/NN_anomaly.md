@@ -4,7 +4,7 @@ title: Neural Networks for anomaly detection
 description: PMC, GAN, CAE, SOM et DBN pour la détection d'anomalies dans différents contextes
 ---
 
-Retrouvez les notebooks de ce projet [via ce lien Github](https://github.com/erivaninan/Neural-Networks-for-Anomaly-Detection){:target="_blank"}.
+Retrouvez les notebooks de ce projet dans [ce repository Github](https://github.com/erivaninan/Neural-Networks-for-Anomaly-Detection){:target="_blank"}.
 
 
 ============
