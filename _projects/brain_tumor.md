@@ -11,7 +11,7 @@ Consultez le rapport pdf du projet [ici](https://github.com/erivaninan/Brain-Tum
 Classification de tumeurs cérébrales
 ============
 
-Les tumeurs cérébrales représentent un enjeu majeur de santé publique, nécessitant des outils de diagnostic précis et rapides pour améliorer la prise en charge des patients. Ce projet vise à développer un réseau neuronal convolutionnel (CNN) sur mesure et à réaliser un benchmark avec des modèles pré-entraînés tels qu’ImageNet et InceptionV3 pour la classification automatisée des tumeurs cérébrales à partir d’images IRM.
+Les `tumeurs cérébrales` représentent un enjeu majeur de santé publique, nécessitant des outils de diagnostic précis et rapides pour améliorer la prise en charge des patients. Ce projet vise à développer un réseau neuronal convolutionnel (CNN) sur mesure et à réaliser un benchmark avec des modèles pré-entraînés tels qu’ImageNet et InceptionV3 pour la classification automatisée des tumeurs cérébrales à partir d’images IRM.
 
 Ce projet met en lumière le potentiel de l’intelligence artificielle pour assister les professionnels de santé dans la détection précoce et l’évaluation des pathologies cérébrales.
 
