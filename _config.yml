@@ -1,5 +1,6 @@
 ### Site title
 remote_theme: jitinnair1/gradfolio
+lang: fr
 
 title: Erivan INAN
 description: Master's Student in Data Science | Sorbonne Université | ISUP
@@ -16,7 +17,7 @@ paginate: 4
 permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
-# Social media links (ajoute les tiens si nécessaire)
+# Social media links
 linkedin: "https://www.linkedin.com/in/erivan-inan/"
 github: "https://github.com/erivaninan/"
 
