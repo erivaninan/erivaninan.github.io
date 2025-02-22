@@ -8,9 +8,9 @@ title: Formation
 	{% for formation in site.formations %}
 	<h3>
 		<small>
-			{{ formation.date | date: '%B %Y' }} - 
+			{{ formation.date | date: '%Y' }} - 
 			{% if formation.date_end %}
-				{{ formation.date_end | date: '%B %Y' }}
+				{{ formation.date_end | date: '%Y' }}
 			{% else %}
 				Présent
 			{% endif %}
