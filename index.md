@@ -7,6 +7,6 @@ profile:
 published: true
 ---
 
-Bienvenue sur mon Portfolio, recensant mes projets académiques et personnels. 
+Bienvenue sur mon Portfolio, recensant mes projets académiques et personnels.
 
 Bonne visite :)
