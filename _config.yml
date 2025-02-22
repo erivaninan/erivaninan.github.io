@@ -31,7 +31,6 @@ plugins:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-target-blank
-  - jekyll-collections  # Ajout pour bien gérer les collections
 
 # Optimisation HTML
 compress_html:
@@ -44,7 +43,7 @@ compress_html:
   profile: false
   startings: []
 
-# Collections (Projets et Formations affichés sur ton site)
+# Collections (Projets affichés sur ton site)
 collections:
   projects:
     output: true
@@ -60,8 +59,6 @@ collections:
     output: true
     permalink: /formation/:name/
 
-collections_dir: _collections  # S'assurer que les collections sont bien chargées
-
 # SCSS / CSS
 sass:
   sass_dir: assets/css/_sass
@@ -70,7 +67,6 @@ sass:
 # Inclure certains dossiers pour Jekyll
 include:
   - _pages
-  - _formations  # Ajout pour s'assurer que Jekyll génère bien les formations
 
 # Exclure certains fichiers inutiles pour la génération du site
 exclude:
