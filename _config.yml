@@ -16,12 +16,12 @@ paginate_path: /blog/page:num/
 linkedin: "https://www.linkedin.com/in/erivan-inan/"
 #stackoverflow: "#"
 github: "https://github.com/erivaninan/"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
+#researchgate: "#"
+#orcid: "#"
+#quora: "#"
+#instagram: "#"
+#facebook: "#"
+#bluesky: "#"
 
 # Markdown
 highlighter: rouge
