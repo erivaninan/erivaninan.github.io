@@ -1,40 +1,40 @@
-### your site title here
-
+### Site title
 remote_theme: jitinnair1/gradfolio
 
 title: Erivan INAN
 description: Master's Student in Data Science | Sorbonne Université | ISUP
 
-baseurl: /erivaninan.github.io #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+# Base URL and Repository Name
+baseurl: ""  # Laisser vide car c'est un site GitHub Pages avec un nom de repo correspondant
+url: "https://erivaninan.github.io"  # Ton site GitHub Pages
+
+# Contact email
 email: inanerivan@gmail.com
 
-# Pagination
+# Pagination for blog posts
 paginate: 4
 permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
-# Social media links in footer
+# Social media links (ajoute les tiens si nécessaire)
 linkedin: "https://www.linkedin.com/in/erivan-inan/"
-#stackoverflow: "#"
 github: "https://github.com/erivaninan/"
-#researchgate: "#"
-#orcid: "#"
-#quora: "#"
-#instagram: "#"
-#facebook: "#"
-#bluesky: "#"
 
-# Markdown
+# Markdown Configuration
 highlighter: rouge
 markdown: kramdown
 
-# Tracker
-analytics:
+# Jekyll Plugins (Important pour que le thème fonctionne)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-target-blank
 
-# optimization -> compress.html
+# Optimisation HTML
 compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  clippings: [html, div, p, ul, td, h1, h2, h3, h4, link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
   comments: ["<!-- ", " -->"]
   endings: [all]
   ignore:
@@ -43,7 +43,7 @@ compress_html:
   profile: false
   startings: []
 
-#collection
+# Collections (Projets affichés sur ton site)
 collections:
   projects:
     output: true
@@ -56,20 +56,16 @@ collections:
       - project5.md
       - project6.md
 
+# SCSS / CSS
 sass:
-  sass_dir: /assets/css/_sass
+  sass_dir: assets/css/_sass
   style: compressed
 
+# Inclure certains dossiers pour Jekyll
 include:
   - _pages
 
+# Exclure certains fichiers inutiles pour la génération du site
 exclude:
   - README.md
   - LICENSE.md
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-email-protect
-  - jekyll-target-blank
